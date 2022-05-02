@@ -79,7 +79,7 @@ parseLS.forEach((a, i) => {
 });
 
 const ellipsis = document.querySelectorAll('.dots');
-for (let d = 0; d < ellipsis.length; d = +1) {
+for (let d = 0; d < ellipsis.length; d += 1) {
   const image = document.getElementById(`li${d}`);
   image.addEventListener('mouseover', () => {
     document.getElementById(`dit${d}`).style.display = 'none';
