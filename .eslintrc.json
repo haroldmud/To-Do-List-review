@@ -11,7 +11,7 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
-    // "import/no-extraneous-dependencies": "off",
+    "import/no-extraneous-dependencies": "off",
     "no-unused-vars": "off",
     "new-cap":"off",
     "no-shadow": "off",
